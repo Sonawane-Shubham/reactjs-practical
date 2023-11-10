@@ -1,0 +1,74 @@
+.container {
+  width: 100%;
+}
+.header {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  align-items: center;
+}
+.header-btn {
+  padding: 7px 15px;
+}
+
+.timezone-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.timezon-selctor {
+  width: 100%;
+  padding: 10px;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.day-checkbox-container {
+  display: flex;
+  gap: 20px;
+}
+.day-container {
+  height: 70px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.weekwise {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.test-container {
+  display: flex;
+  gap: 10px;
+}
+
+.test {
+  border: 1px solid red;
+}
+
+.checkboxx {
+  height: 10px;
+  font-size: 20px;
+  width: 20px;
+  padding: 10px;
+}
+.checkboxex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  width: 80%;
+}
+.checkbox-wrapper {
+  font-size: 15px;
+}
